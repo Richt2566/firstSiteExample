@@ -1,49 +1,60 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Rich Tranter | Front-End Developer</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-</head>
+	<head>
+		<title>Rich Tranter</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	</head>
 <body>
-<h1>Rich Tranter | Artist // Front-End Developer</h1>
-<ul>
-	<li><a href="#"> About </a></li>
-	<li><a href="#examples">Designs | </a></li>
-	<li><a href="#"> Welcome | </a></li>
-	<li><a href="#final-form"> Contact | </a></li>
-</ul>
-<br>
-<hr>
-<h1 id="headline1">This is a headline</h1><br>
 
-<p>this is a p tag</p>
-
-<img src="https://images.pexels.com/photos/23049/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb">
-<br>
-<input id="btn" type="button" name="button1" value="More info">
-
-<p id="show-item">This is an example of something that will start hiding, but as you cick the button, it will show. Thanks</p>
-
-<p>Contact me</p>
-
-<form id="final-form"> First name:
-<input type="text" name="FirstName"><br>
-Last Name:
-<input type="text" name="LastName"><br>
-<input type="submit" name="Submit">
+	<header class="top">
+		<div class="main-content">
+		<div class="rich-headline">
+		<h1>Rich Tranter</h1>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#"> About </a></li>
+				<li><a href="#examples">Portfolio</a></li>
+				<li><a href="#final-form"> Contact</a></li>
+			</ul>
+		</nav>
+		</div>
+	</header>
 	
-</form>
+	
+	<div class="main-content content">
+	<section class="contact">
+		<p>Contact me</p>
 
-<p id="examples" >examples of designs I have done.</p>
+		<form id="final-form">
+			<label>Name</label>
+			<input type="text" name="Name"><br>
+			<label>Message</label>
+			<input type="textarea" name="Message" height="50px"><br>
+			<input type="submit" name="Submit">
+		
+		</form>
+	</section>
 
-<div id="gallery">
-<img id="image2" src="https://img.artpal.com/77357/29-30-20t.jpg">
-<img id="image3" src="https://img.artpal.com/77357/13-21-20t.jpg">
-<img id="image4" src="https://img.artpal.com/77357/33-37-6t.jpg">
-<img id="image5" src="https://img.artpal.com/77357/22-32-1t.jpg">
+	<section>
+
+		<p id="examples" >examples of designs I have done.</p>
+
+		<div id="gallery">
+		<img id="image2" src="https://img.artpal.com/77357/29-30-20t.jpg" width="200px" height="200px">
+		<img id="image3" src="https://img.artpal.com/77357/13-21-20t.jpg" width="200px" height="200px">
+		<img id="image4" src="https://img.artpal.com/77357/33-37-6t.jpg" width="200px" height="200px">
+		<img id="image5" src="https://img.artpal.com/77357/22-32-1t.jpg" width="200px" height="200px">
+		</div>
+	</section>
+
 </div>
+
+<footer>
+	<p>copyright @ 2017 Rich Tranter</p>
+</footer>
 
 <script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
 <script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>

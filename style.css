@@ -1,31 +1,82 @@
 body {
 	background-color: gray;
+	width: 100%;
+	margin: 0 auto;
 }
 
-h1 {
-	color: black;
-	font-family: Roboto;
-	display: inline-block;
-	float: left;
-	font-size: 20px;
-	margin-top: 0;
-	margin-bottom: 0;
+.top {
+	background-color: lightgrey;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding: 40px 0px;
+	border-bottom: 2px solid black;
+}
+
+.main-content {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.gallery {
+}
+
+nav {
+	float: right;
+}
+
+li {
+	display: inline;
+	list-style-type: none;
+	padding: 0px 5px;
 }
 
 li a {
-	font-family: Roboto;
-	color: black;
 	text-decoration: none;
-	
-	
+	font-family: Roboto;
 }
-li {
-	margin-left: 10px;
-	margin-top: 5px;
-	float: right;
-	display: inline-block;
-	list-style-type: none;
+
+input {
+	width: 95%;
 }
+
+.rich-headline {
+	color: black;
+	font-family: Roboto;
+	float: left;
+	font-size: 19px;
+	display: inline;
+}
+
+.contact {
+	float: left;
+	clear: both;
+	border: 2px solid lightgrey;
+	margin
+}
+
+#final-form {
+	padding: 20px 20px;
+}
+
+.rich-headline h1 {
+	margin-top: 0px;
+}
+.content {
+	min-height: calc(100vh - 70px);
+}
+
+footer {
+	background: lightgrey;
+	text-align: center;
+	clear: both;
+	padding: 10px 10px;
+	border-top: 2px solid black;
+}
+
+section {
+	float: left;
+}
+/*
 
 hr {
 	margin-top: 20px;
@@ -58,3 +109,5 @@ img {
 	border: 10px solid black;
 	display:
 }
+
+*/
