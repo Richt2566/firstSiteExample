@@ -39,3 +39,28 @@ body {
  	color: white;
  	text-align: center;
  }
+
+ /* Gallery */
+
+ .gallery {
+ 	margin: 0px;
+ 	padding: 20px
+ }
+
+ img {
+ 	opacity: 1.0;
+ }
+
+ img:hover {
+ 	opacity: 0.5;
+ }
+
+ .wrapper .text {
+ 	position: relative;
+ 	visibility: hidden;
+ }
+
+ .wrapper:hover .text{
+ 	visibility: visible;
+ 	top: 1;
+ }
