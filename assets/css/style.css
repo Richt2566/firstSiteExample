@@ -6,7 +6,7 @@ body {
 }
 
  header {
- 	background-image: url("hello.jpg");
+ 	background-image: url("../images/hello.jpg");
  	padding: 100px;
  }
 
@@ -22,4 +22,20 @@ body {
 
  ul li {
  	display: inline;
+ }
+
+ /* Section */
+
+ hr {
+ 	width: 50px;
+ }
+
+ .two {
+ 	width: 120px;
+ }
+
+ section {
+ 	background-color: #283B40;
+ 	color: white;
+ 	text-align: center;
  }
